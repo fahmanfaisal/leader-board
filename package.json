@@ -1,0 +1,17 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build:css": "tailwind build src/css/style.css -o publisc/css/style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
